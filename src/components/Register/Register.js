@@ -1,6 +1,5 @@
 import './Register.scss'
 import { useHistory } from "react-router-dom";
-
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { registerNewUser } from '../../services/userService';
